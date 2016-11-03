@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/RestKit/RKXMLReaderSerialization.git", :tag => 'v0.1.0' }
   s.source_files = '*.{h,m}'
   
-  s.dependency 'RestKit', '>= 0.20.0dev'
+  s.dependency 'RestKit', '>= 0.27'
   s.dependency 'XMLReader', '>= 0.0.2'
 end
